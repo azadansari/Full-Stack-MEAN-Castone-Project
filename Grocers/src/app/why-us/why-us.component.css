@@ -1,0 +1,23 @@
+
+.why-us .accordion-button{
+  font-size: 20px;
+  box-shadow: none!important;
+}
+.accordion-button:not(.collapsed){
+  background-color: #37ff0012;
+  color: #1d8400;
+}
+
+@media(max-width:992px){
+  .why-us{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+ }
+
+ @media(max-width:7768px){
+  .why-us{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ }

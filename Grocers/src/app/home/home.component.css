@@ -1,0 +1,44 @@
+.home-slider .carousel-caption {
+  max-width: 500px;
+  position: absolute;
+  right: auto;
+  top: 22%;
+  bottom: 10%;
+  left: 7%;
+  /* padding-top: 1.25rem; */
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+@media(max-width:992px){
+  .home-slider .carousel .carousel-inner .carousel-item img{
+    height: 50vh;
+  }
+
+  .home-slider .carousel-caption {
+    max-width: 350px;
+    top: 10%;
+    text-align: left;
+  }
+}
+
+@media(max-width:768px){
+  .home-slider .carousel .carousel-inner .carousel-item img{
+    height: 45vh;
+  }
+  .home-slider .carousel-caption {
+    left: 15px;
+  }
+}
+
+@media(max-width:575px){
+  .home-slider .carousel .carousel-inner .carousel-item img{
+    height: 32vh;
+  }
+}
+@media(max-width:480px){
+  .home-slider .carousel .carousel-inner .carousel-item img{
+    height: 26vh;
+  }
+}

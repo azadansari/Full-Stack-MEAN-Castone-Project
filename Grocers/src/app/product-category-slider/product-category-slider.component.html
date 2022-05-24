@@ -1,0 +1,73 @@
+<div class="mainboxcontent product-category-slider">
+  <div class="container-fluid">
+    <h2 class="text-center">Trending now…</h2>
+
+    <div class="owl-carousel owl-theme mt-3" id="faculties">
+      <div class="item">
+        <div class="DailyProd">
+          <h5>mhsfjkv skjfgvj sbv</h5>
+            <img src="assets\images\categories\categories-1.jpg">
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="DailyProd">
+          <h5>mhsfjkv skjfgvj sbv</h5>
+            <img src="assets\images\categories\categories-2.jpg">
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="DailyProd">
+          <h5>mhsfjkv skjfgvj sbv</h5>
+            <img src="assets\images\categories\categories-3.jpg">
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="DailyProd">
+          <h5>mhsfjkv skjfgvj sbv</h5>
+            <img src="assets\images\categories\categories-4.jpg">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+  function openFacultiesModal() {
+    document.getElementById("faculty").style.display = 'inherit';
+  }
+
+  function closeFacultiesModal() {
+    document.getElementById("faculty").style.display = 'none';
+  }
+
+</script>
+
+<script>
+  $('#faculties').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    margin: 10,
+    // nav: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      680: {
+        items: 2
+      },
+      1200: {
+        items: 3
+      }
+    }
+  });
+</script>
