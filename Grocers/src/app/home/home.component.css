@@ -11,6 +11,12 @@
   text-align: center;
 }
 
+.home-slider .carousel-caption h3{
+  font-size: 45px;
+  font-weight: 400;
+  font-family: Allura,cursive;
+}
+
 @media(max-width:992px){
   .home-slider .carousel .carousel-inner .carousel-item img{
     height: 50vh;

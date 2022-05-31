@@ -27,7 +27,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="fas fa-salad"></i> Grocery</a>
+    <a class="navbar-brand" routerLink="/"><i class="fas fa-salad"></i> Grocery</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -36,26 +36,30 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link active" aria-current="page" routerLink="/" routerLinkActive="active">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
+          <a class="nav-link" routerLink="/about" routerLinkActive="active">ABOUT</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">
             SHOP
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Vegitables</a></li>
+            <li><a class="dropdown-item" routerLink="/" routerLinkActive="active">Vegitables</a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
-            <li><a class="dropdown-item" href="#">Fruits</a></li>
+            <li><a class="dropdown-item" routerLink="/" routerLinkActive="active">Fruits</a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
-            <li><a class="dropdown-item" href="#">Dry Foods</a></li>
-            <li><a class="dropdown-item" href="#">Green Vegitables</a></li>
+            <li><a class="dropdown-item" routerLink="/" routerLinkActive="active">Dry Foods</a></li>
+            <li><a class="dropdown-item" routerLink="/" routerLinkActive="active">Green Vegitables</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/product-single" routerLinkActive="active">Product Single</a>
         </li>
       </ul>
       <form class="d-flex">
