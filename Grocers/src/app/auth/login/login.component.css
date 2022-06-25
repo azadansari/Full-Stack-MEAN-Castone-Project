@@ -1,0 +1,8 @@
+
+.login-card{
+  max-width: 450px;
+  margin: 5% auto;
+  padding: 50px 20px;
+  background-color: rgba(215, 250, 215,0.33);
+  box-shadow: 0 0 10px -4px rgba(0,0,0,0.33);
+}

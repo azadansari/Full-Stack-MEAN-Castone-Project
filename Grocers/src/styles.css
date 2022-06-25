@@ -15,7 +15,7 @@ body{
   background-color: #668c5b;
   color: white;
   border-radius: 3px;
-  border-color: #668c5b;
+  border: 1px solid #668c5b;
 }
 .default-green-btn:hover{
   background-color: #000000;
@@ -29,6 +29,14 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 .paragraph-text{
   color: rgba(0,0,0,0.6);
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #668c5b;
+  outline: 0;
+  box-shadow: none;
 }
 
 

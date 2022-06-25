@@ -1,1 +1,49 @@
+.footer {
+  background-color: black;
+  padding: 60px 10%;
+}
+.footer ul{
+  margin: 0;
+  padding: 0;
+}
+.footer ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 20px 5px 1px 5px;
+  letter-spacing: 0.6px;
+}
+.footer  ul li a:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
 
+.footer .subscribe-frm {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+.footer p{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: rgba(255,255,255,0.6);
+}
+
+
+@media(max-width:1200px){
+  .footer {
+    background-color: black;
+    padding: 60px 3%;
+  }
+}

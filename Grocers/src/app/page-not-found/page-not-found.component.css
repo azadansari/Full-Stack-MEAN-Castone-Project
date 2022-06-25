@@ -1,0 +1,21 @@
+
+.pnotfound{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.pnotfound .text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.pnotfound .text h1{
+  font-family: 'sans', sans-serif;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
