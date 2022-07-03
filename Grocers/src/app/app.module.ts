@@ -16,6 +16,8 @@ import { AuthRoutingModule } from './auth/auth-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FruitsVegetablesComponent } from './fruits-vegetables/fruits-vegetables.component';
 import { ProductsComponent } from './products/products.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -30,12 +32,14 @@ import { ProductsComponent } from './products/products.component';
     FooterComponent,
     PageNotFoundComponent,
     FruitsVegetablesComponent,
-    ProductsComponent
+    ProductsComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthModule
+    AuthModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

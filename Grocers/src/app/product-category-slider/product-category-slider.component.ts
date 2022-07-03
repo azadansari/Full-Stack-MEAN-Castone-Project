@@ -12,4 +12,11 @@ export class ProductCategorySliderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  slideConfig = {
+    "slidesToShow": 3,
+    "slidesToScroll": 3,
+    "dots": true,
+    "infinite": true
+  };
+
 }

@@ -1,0 +1,90 @@
+<div class="cart">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 col-lg-8 col-md-12 bg-light">
+        <div class="cart-item">
+          <h4>Shopping Cart</h4>
+
+          <table class="table border-top mt-4">
+            <thead>
+              <tr>
+                <th scope="col" class="small-fnt">Items</th>
+                <th scope="col" class="small-fnt">Product Name</th>
+                <th scope="col" class="small-fnt">Quantity:</th>
+                <th scope="col" class="small-fnt">Item Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><img src="../../assets/images/products/product1.jpg" width="130px" alt=""></th>
+                <td class="text-success small-fnt">Fresh Vegitables</td>
+                <td class="text-success small-fnt">1Kg</td>
+                <td class="text-success small-fnt">$2.5</td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="../../assets/images/products/product2.jpg" width="130px" alt=""></th>
+                <td class="text-success small-fnt">Fresh Vegitables</td>
+                <td class="text-success small-fnt">1Kg</td>
+                <td class="text-success small-fnt">$1.5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <div class="col-xl-4 col-lg-4 col-md-12">
+        <div class="cart-item">
+          <h4>Cart Summary</h4>
+
+          <table class="table border-top mt-4">
+            <tbody>
+              <tr>
+                <td class="small-fnt fw-lighter">Estimated delivery date <span class="float-end">06 Jul - 08 Jul</span></td>
+              </tr>
+              <tr>
+                <td class="small-fnt fw-lighter">Subtotal <span class="float-end">$2.5</span></td>
+              </tr>
+              <tr>
+                <td class="small-fnt fw-lighter">Shipping & delivery <span class="float-end">$0.30</span></td>
+              </tr>
+
+              <tr>
+                <td class="small-fnt fw-lighter">Total <span class="float-end">$2.80</span></td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn default-green-btn btn-sm" type="button" id="button-addon2">Apply Coupon</button>
+          </div>
+
+          <div>
+            <a class="btn btn-primary col-12" onclick="placeOrder()">Checkout</a>
+            <p class="text-success fw-bold mt-3">Safe and Secure Payments. 100% authentic products.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="poupmessage" id="placedOrder">
+  <div class="messgecontainer">
+    <h4>Your Order is Placed</h4>
+    <p>Thank You For Shopping from Flipcart</p>
+    <!-- <button class="btn btn-success btn-sm" id="goshop">Go Back to Shop</button> -->
+    <a href="index.html" class="btn btn-success btn-sm">Go Back to Shop</a>
+  </div>
+</div>
+
+
+<script>
+  function placeOrder(){
+    document.getElementById("placedOrder").style.display = "inherit";
+}
+</script>

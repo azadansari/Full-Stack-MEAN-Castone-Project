@@ -1,0 +1,5 @@
+.product-hero{
+  padding: 80px 2%;
+  background: url('../../assets/images/shop-PageImages.jpg') top left no-repeat fixed;
+  background-size: contain;
+}
