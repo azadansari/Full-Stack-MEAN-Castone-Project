@@ -14,6 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AuthModule } from './auth/auth.module';
 import { AuthRoutingModule } from './auth/auth-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FruitsVegetablesComponent } from './fruits-vegetables/fruits-vegetables.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ContactComponent,
     ShopComponent,
     FooterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    FruitsVegetablesComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,20 @@
+.fruits-vegetables {
+  text-align: center;
+  background: url("../../assets/images/post6.webp") top no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 55px 0;
+}
+
+.fruits-vegetables .textcontent{
+  max-width: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(17px);
+  padding: 20px;
+  font-weight: bold;
+}
