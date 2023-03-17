@@ -1,30 +1,63 @@
-
-.cart{
+.cart {
   width: 100%;
   background-color: #f7f7f7;
   margin: auto;
-  padding: 60px 2%;
+  padding: 60px 0.5%;
 }
-.cart-item{
+.cart-item {
   background-color: white;
   padding: 15px;
 }
 
-
 .poupmessage {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0;
-  left: 0%;
-  position: absolute;
-  background-color: rgba(0,0,0,0.66);
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.66);
   display: none;
+  z-index: 999999;
 }
-.messgecontainer{
+.popshow {
+  display: inherit;
+}
+
+.messgecontainer {
   max-width: 600px;
   text-align: center;
   margin: 18% auto;
   padding: 5%;
   background-color: white;
   border-radius: 5px;
+  position: relative;
+}
+.popClose {
+  color: black;
+    top: -7px;
+    right: 5px;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.cart-item table thead tr th {
+  padding: 6px 1px;
+}
+
+@media (max-width: 768px) {
+  .messgecontainer {
+    margin: 22% auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .small-fnt {
+    font-size: 12px;
+    font-weight: 600;
+  }
 }

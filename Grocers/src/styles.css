@@ -18,10 +18,10 @@ body{
   border: 1px solid #668c5b;
 }
 .default-green-btn:hover{
-  background-color: #000000;
+  background-color: #7ece68;
   color: white;
   border-radius: 3px;
-  border-color: #000000;
+  border-color: #7ece68;
 }
 h1, h2, h3, h4, h5, h6, p, a{
   font-family: "Cormorant Garamond",serif;
@@ -29,6 +29,9 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 .small-fnt{
   font-size: 14px;
+}
+.pl-0{
+  padding-left: 0px !important
 }
 
 .paragraph-text{
@@ -86,4 +89,5 @@ h1, h2, h3, h4, h5, h6, p, a{
   .display-n{
     display: none;
   }
+
 }

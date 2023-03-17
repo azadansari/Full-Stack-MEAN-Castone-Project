@@ -2,6 +2,9 @@
 .productDetail{
   padding: 15px;
 }
+.productFeatureImage{
+  width: 100%;
+}
 .productDetail p{
   font-size: 17px;
   font-weight: 500;
@@ -39,4 +42,11 @@ td p{
 }
 .card .card-body img{
   border-radius: 50px;
+}
+
+
+@media(max-width: 768px) {
+  .productFeatureImage{
+    width: 100%;
+  }
 }

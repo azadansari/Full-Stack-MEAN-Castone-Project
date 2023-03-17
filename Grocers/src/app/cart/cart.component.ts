@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartComponent implements OnInit {
 
+  show = 0;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+
+  placeOrder(){
+    this.show = 1;
+  }
+  closePop(){
+    this.show = 0;
   }
 
 }

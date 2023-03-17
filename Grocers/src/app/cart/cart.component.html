@@ -10,22 +10,31 @@
               <tr>
                 <th scope="col" class="small-fnt">Items</th>
                 <th scope="col" class="small-fnt">Product Name</th>
-                <th scope="col" class="small-fnt">Quantity:</th>
+                <th scope="col" class="small-fnt">Quantity</th>
                 <th scope="col" class="small-fnt">Item Price</th>
+                <th scope="col" class="small-fnt">Add/Remove Item</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row"><img src="../../assets/images/products/product1.jpg" width="130px" alt=""></th>
+                <th scope="row" class="pl-0"><img src="../../assets/images/products/product1.jpg" width="100px" alt=""></th>
                 <td class="text-success small-fnt">Fresh Vegitables</td>
                 <td class="text-success small-fnt">1Kg</td>
                 <td class="text-success small-fnt">$2.5</td>
+                <td class="text-success small-fnt">
+                  <button class="default-green-btn" style="font-size:11px;background-color:#668c5b;border: none;">+</button> &nbsp;
+                  <button class="default-green-btn" style="font-size:11px;background-color:#e14a4a;border: none;">-</button>
+                </td>
               </tr>
               <tr>
-                <th scope="row"><img src="../../assets/images/products/product2.jpg" width="130px" alt=""></th>
+                <th scope="row"  class="pl-0"><img src="../../assets/images/products/product2.jpg" width="100px" alt=""></th>
                 <td class="text-success small-fnt">Fresh Vegitables</td>
                 <td class="text-success small-fnt">1Kg</td>
                 <td class="text-success small-fnt">$1.5</td>
+                <td class="text-success small-fnt">
+                  <button class="default-green-btn" style="font-size:11px;background-color:#668c5b;border: none;">+</button> &nbsp;
+                  <button class="default-green-btn" style="font-size:11px;background-color:#e14a4a;border: none;">-</button>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -33,6 +42,8 @@
 
       </div>
 
+
+      <!-- Cart Summary and Checkout card -->
       <div class="col-xl-4 col-lg-4 col-md-12">
         <div class="cart-item">
           <h4>Cart Summary</h4>
@@ -62,7 +73,7 @@
           </div>
 
           <div>
-            <a class="btn btn-primary col-12" onclick="placeOrder()">Checkout</a>
+            <a class="btn btn-primary col-12" (click)="placeOrder()">Checkout</a>
             <p class="text-success fw-bold mt-3">Safe and Secure Payments. 100% authentic products.</p>
           </div>
         </div>
@@ -73,18 +84,12 @@
 </div>
 
 
-<div class="poupmessage" id="placedOrder">
+<div class="poupmessage" [ngClass]="{'popshow':show==1}">
   <div class="messgecontainer">
+    <span class="popClose" (click)="closePop()">&times;</span>
     <h4>Your Order is Placed</h4>
-    <p>Thank You For Shopping from Flipcart</p>
+    <p>Thank You For Shopping from Grocery</p>
     <!-- <button class="btn btn-success btn-sm" id="goshop">Go Back to Shop</button> -->
-    <a href="index.html" class="btn btn-success btn-sm">Go Back to Shop</a>
+    <a href="/" class="btn btn-success btn-sm">Go Back to Shop</a>
   </div>
 </div>
-
-
-<script>
-  function placeOrder(){
-    document.getElementById("placedOrder").style.display = "inherit";
-}
-</script>
