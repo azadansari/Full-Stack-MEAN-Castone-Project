@@ -79,6 +79,43 @@ h1, h2, h3, h4, h5, h6, p, a{
   margin: 0 auto;
 }
 
+/*  Products Item Card    */
+.products {
+  padding: 60px 2%;
+  text-align: center;
+}
+
+.product-item {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  text-align: left;
+  box-shadow: 0 5px 12px -8px rgb(0 0 0 / 33%);
+  margin-top: 40px;
+  overflow: hidden;
+}
+.product-item:hover {
+  box-shadow: 0 5px 12px -8px rgb(0 0 0 / 10%);
+  transition: 0.2s ease-in;
+}
+
+.product-item img {
+  max-width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+.product-item img:hover {
+  transform: scale(1.1);
+  transition: 0.5s all ease-in-out;
+}
+.textcontent {
+  margin: 0;
+  padding: 15px;
+}
+/*  Products Item Card  End  */
+
+
 
 @media(max-width:768px){
   .mainboxcontent{padding: 40px 8px;}

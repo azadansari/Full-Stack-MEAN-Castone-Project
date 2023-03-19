@@ -1,0 +1,38 @@
+.about-hero{
+  padding: 80px 7%;
+  background: url('../../assets/images/post6.webp') left no-repeat fixed;
+  background-size: cover;
+}
+.textBox{
+  max-width: 1150px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+.fwh2-h2{
+  color: rgba(0,0,0,0.7);
+}
+.textBox p{
+  font-size: 17px;
+  margin-top: 20px;
+  color: rgba(0,0,0,0.6);
+  font-weight: 500;
+}
+.textBox .card{
+  border: 1px solid #668c5b;
+}
+
+.about-bottom{
+  padding: 80px 7%;
+  height: 500px;
+  background: url('../../assets/images/banners2.webp') bottom center no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+.about-bottom p{
+  text-align: justify;
+}
+
+@media(max-width:768px) {
+  .textBox{padding: 50px 6%;margin: 0 auto;}
+}

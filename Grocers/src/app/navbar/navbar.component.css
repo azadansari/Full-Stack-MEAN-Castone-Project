@@ -37,8 +37,8 @@
   font-weight: 300;
 }
 .login-Cart .badge {
-  --bs-badge-padding-x: 0.5em;
-  --bs-badge-padding-y: 0.35em;
+  --bs-badge-padding-x: 0.8em;
+  --bs-badge-padding-y: 0.55em;
   --bs-badge-font-weight: 500;
 }
 
@@ -68,6 +68,17 @@
   background-color: #668c5b;
   color: white;
   box-shadow: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: rgba(0,0,0,0.6);
+  font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link.visited,
+.navbar-expand-lg .navbar-nav .nav-link.focus,
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #000;
+  transition: .2s ease;
 }
 .navbar-nav .dropdown-menu{
   padding: 0;
