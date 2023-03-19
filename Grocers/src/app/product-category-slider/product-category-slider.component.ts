@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-product-category-slider',
   templateUrl: './product-category-slider.component.html',
@@ -11,12 +12,4 @@ export class ProductCategorySliderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  slideConfig = {
-    "slidesToShow": 3,
-    "slidesToScroll": 3,
-    "dots": true,
-    "infinite": true
-  };
-
 }

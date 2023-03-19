@@ -56,9 +56,9 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 
 .DailyProd {
-  margin: 10px 15px;
+  margin: 10px 5px;
   padding: 0 0 10px 0;
-  border-radius: 8px;
+  border-radius: 5px;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.055);
   -webkit-transition: 150ms ease;
@@ -75,9 +75,8 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 .DailyProd img {
-  max-width: 150px;
-  margin: 20px auto;
-  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 

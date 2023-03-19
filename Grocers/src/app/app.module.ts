@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,8 +17,12 @@ import { AuthRoutingModule } from './auth/auth-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FruitsVegetablesComponent } from './fruits-vegetables/fruits-vegetables.component';
 import { ProductsComponent } from './products/products.component';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { CartComponent } from './cart/cart.component';
+import { VegitablesComponent } from './vegitables/vegitables.component';
+import { FruitsComponent } from './fruits/fruits.component';
+import { DryFruitsComponent } from './dry-fruits/dry-fruits.component';
+import { GreenVegitablesComponent } from './green-vegitables/green-vegitables.component';
+import { ComboComponent } from './combo/combo.component';
 
 @NgModule({
   declarations: [
@@ -33,13 +38,18 @@ import { CartComponent } from './cart/cart.component';
     PageNotFoundComponent,
     FruitsVegetablesComponent,
     ProductsComponent,
-    CartComponent
+    CartComponent,
+    VegitablesComponent,
+    FruitsComponent,
+    DryFruitsComponent,
+    GreenVegitablesComponent,
+    ComboComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
-    AuthModule,
-    SlickCarouselModule
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
