@@ -23,6 +23,7 @@ import { FruitsComponent } from './fruits/fruits.component';
 import { DryFruitsComponent } from './dry-fruits/dry-fruits.component';
 import { GreenVegitablesComponent } from './green-vegitables/green-vegitables.component';
 import { ComboComponent } from './combo/combo.component';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { ComboComponent } from './combo/combo.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    AuthModule
+    AuthModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

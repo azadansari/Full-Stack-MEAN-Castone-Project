@@ -18,10 +18,10 @@ body{
   border: 1px solid #668c5b;
 }
 .default-green-btn:hover{
-  background-color: #7ece68;
+  background-color: #000000;
   color: white;
   border-radius: 3px;
-  border-color: #7ece68;
+  border-color: #000000;
 }
 h1, h2, h3, h4, h5, h6, p, a{
   font-family: "Cormorant Garamond",serif;
